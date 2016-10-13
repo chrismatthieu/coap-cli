@@ -1,5 +1,5 @@
 {
-  "name": "coap-cli",
+  "name": "meshblu-coap-cli",
   "version": "0.3.0",
   "description": "A CLI for CoAP",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "test"
   ],
   "bin": {
-    "coap": "index.js"
+    "meshblu-coap": "index.js"
   },
   "repository": {
     "type": "git",

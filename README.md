@@ -1,4 +1,4 @@
-CoAP-CLI
+Meshblu-CoAP-CLI
 ============================
 
 [![Build
@@ -19,14 +19,14 @@ Install
 
 Install [node.js](http://nodejs.org), and then from a terminal:
 ```
-npm install coap-cli -g
+npm install meshblu-coap-cli -g
 ```
 
 Usage
 ----------------------------
 
 ```
-  Usage: coap [command] [options] url
+  Usage: meshblu-coap [command] [options] url
 
   Commands:
 
@@ -44,6 +44,7 @@ Usage
     -n, --no-new-line        No new line at the end of the stream
     -p, --payload <payload>  The payload for POST and PUT requests
     -q, --quiet              Do not print status codes of received packets
+    -H "meshblu_auth_uuid={UUID}&meshblu_auth_token={TOKEN}"
 ```
 
 ### PUT and POST
